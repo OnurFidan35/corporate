@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}{{Pages.title}}{% endblock %}
+{% block extracss %}{% endblock %}
+{% block content %}
+<div class="row mt-4 mb-4">
+<div class="col-md-8">
+<h2 class="mb-4 mt-4">{{Pages.title}}</h2>
+<div class="col-md-12 mb-3">
+<p>{{Pages.content|safe}}</p>
+</div>
+</div>
+{% include "includes/_sidebar.html" %}
+</div>
+</div>
+{% endblock %}

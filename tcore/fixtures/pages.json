@@ -1,0 +1,36 @@
+[
+
+    {
+
+        "model":"tcore.page",
+        "pk":1,
+        "fields":{
+        "title_tr":"Sayfa01",
+        "title_en":"Page01",
+        "content_tr":"İçerik01",
+        "content_en":"Content01",
+        "slug":"sayfa-01"
+        }
+
+
+    },
+    {
+
+        "model":"tcore.page",
+        "pk":2,
+        "fields":{
+        "title_tr":"Sayfa02",
+        "title_en":"Page02",
+        "content_tr":"İçerik02",
+        "content_en":"Content02",
+        "slug":"sayfa-02"
+        }
+
+
+
+    }
+
+
+
+
+]
